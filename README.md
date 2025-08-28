@@ -29,7 +29,9 @@ A lightweight Python tool that converts an entire project (or folder) into a sin
 
 ## 🚀 Usage
 
-`python3 dir2txt.py <input_directory> <output_file> [options]`
+```bash
+python3 dir2txt.py <input_directory> <output_file> [options]
+```
 
 Options
 
@@ -47,9 +49,7 @@ Options
 python3 dir2txt.py . myproject.txt -i /.venv/ -d "Hi GPT. What is the problem with my code?"
 ```
 
----
-
-## 📦 Sample Output
+Sample Output:
 
 ```text
 Project structure
