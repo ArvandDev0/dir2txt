@@ -11,11 +11,11 @@ A lightweight Python tool that converts an entire project (or folder) into a sin
 
 - Generate a tree view of the project structure (with directory & file counts).
 
-- Ignore unwanted files or directories (.git, __pycache__, .venv, etc.).
+- Ignore unwanted files or directories (`.git`, `__pycache__`, `.venv`, etc.).
 
 - Add a custom project description at the end of the output.
 
-- Supports reading from compressed archives (.zip, .tar, .gz, .bz2, .xz).
+- Supports reading from compressed archives (`.zip`, `.tar`, `.gz`, `.bz2`, `.xz`).
 
 - Handles large files by skipping, truncating, or limiting the number of lines (configurable).
 
@@ -29,13 +29,13 @@ A lightweight Python tool that converts an entire project (or folder) into a sin
 
 ## 🚀 Usage
 
-python3 dir2txt.py <input_directory> <output_file> [options]
+`python3 dir2txt.py <input_directory> <output_file> [options]`
 
 Options
 
--i, --ignore → Comma-separated list of ignored files/folders.
+`-i`, `--ignore` → Comma-separated list of ignored files/folders.
 
--d, --description → Add a description at the end of the output.
+`-d`, `--description` → Add a description at the end of the output.
 
 
 
