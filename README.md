@@ -13,7 +13,7 @@ cd dir2txt/src
 
 ---
 
-## 🔧 Requirements  
+### 🔧 Requirements  
 - Python **3.8+**  
 - No external libraries required. 
 
@@ -23,7 +23,9 @@ cd dir2txt/src
 
 ```bash
 python3 dir2txt.py <input_directory> <output_file> [options]
+
 ```
+---
 
  Option | Description |
 |--------|-------------|
