@@ -11,8 +11,6 @@ git clone https://github.com/ArvandDev0/dir2txt
 cd dir2txt/src
 ```
 
----
-
 ### 🔧 Requirements  
 - Python **3.8+**  
 - No external libraries required. 
@@ -25,7 +23,6 @@ cd dir2txt/src
 python3 dir2txt.py <input_directory> <output_file> [options]
 
 ```
----
 
  Option | Description |
 |--------|-------------|
