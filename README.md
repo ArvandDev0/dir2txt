@@ -5,23 +5,23 @@ A lightweight Python tool that converts an entire project (or folder) into a sin
 
 ---
 
-## ✨ Features
+## 💡 Features
 
-📂 Merge all project files into one text file.
+- Merge all project files into one text file.
 
-🌳 Generate a tree view of the project structure (with directory & file counts).
+- Generate a tree view of the project structure (with directory & file counts).
 
-🚫 Ignore unwanted files or directories (.git, __pycache__, .venv, etc.).
+- Ignore unwanted files or directories (.git, __pycache__, .venv, etc.).
 
-📝 Add a custom project description at the end of the output.
+- Add a custom project description at the end of the output.
 
-📦 Supports reading from compressed archives (.zip, .tar, .gz, .bz2, .xz).
+- Supports reading from compressed archives (.zip, .tar, .gz, .bz2, .xz).
 
-⚡ Handles large files by skipping, truncating, or limiting the number of lines (configurable).
+- Handles large files by skipping, truncating, or limiting the number of lines (configurable).
 
-🎯 Output format is designed to be clean, Markdown-friendly, and AI-readable.
+- Output format is designed to be clean, Markdown-friendly, and AI-readable.
 
-✅ Pure Python, no external dependencies (standard library only).
+- Pure Python, no external dependencies (standard library only).
 
 
 
@@ -44,22 +44,8 @@ Options
 ## Example
 
 ```bash
-python3 dir2txt.py . myproject.txt -i /.venv/ -d "This project is prepared for ChatGPT code review."
+python3 dir2txt.py . myproject.txt -i /.venv/ -d "Hi GPT. What is the problem with my code?"
 ```
-
-Output Includes
-
-Full project structure (tree view)
-
-Contents of each file in Markdown-friendly blocks
-
-Truncated preview for large files (with configurable line limits)
-
-Automatic archive extraction if compressed files are included
-
-Final description
-
-
 
 ---
 
@@ -78,6 +64,11 @@ Project structure
 
 ---
 
+Description
+Hi GPT. What is the problem with my code?
+
+---
+
 ./main.py
 [content file]
 
@@ -91,11 +82,6 @@ Project structure
 ./README.md
 [content file]
 
----
-
-Description
-
-This project is prepared for ChatGPT code review.
 ```
 
 ---
