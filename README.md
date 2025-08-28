@@ -25,11 +25,10 @@ cd dir2txt/src
 python3 dir2txt.py <input_directory> <output_file> [options]
 ```
 
-Options
-
-`-i`, `--ignore` → Comma-separated list of ignored files/folders.
-
-`-d`, `--description` → Add a description at the end of the output.
+ Option | Description |
+|--------|-------------|
+| `-i`, `--ignore` | Comma-separated list of ignored files/folders |
+| `-d`, `--description` | Add a description at the end of the output |
 
 ---
 
