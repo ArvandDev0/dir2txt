@@ -2,28 +2,20 @@
 
 A lightweight Python tool that converts an entire project (or folder) into a single .txt file, optimized for Large Language Models (LLMs) such as ChatGPT, Claude, or Gemini.
 
+---
+
+## 📥 Installation
+
+```bash
+git clone https://github.com/ArvandDev0/dir2txt
+cd dir2txt/src
+```
 
 ---
 
-## 💡 Features
-
-- Merge all project files into one text file.
-
-- Generate a tree view of the project structure (with directory & file counts).
-
-- Ignore unwanted files or directories (`.git`, `__pycache__`, `.venv`, etc.).
-
-- Add a custom project description at the end of the output.
-
-- Supports reading from compressed archives (`.zip`, `.tar`, `.gz`, `.bz2`, `.xz`).
-
-- Handles large files by skipping, truncating, or limiting the number of lines (configurable).
-
-- Output format is designed to be clean, Markdown-friendly, and AI-readable.
-
-- Pure Python, no external dependencies (standard library only).
-
-
+## 🔧 Requirements  
+- Python **3.8+**  
+- No external libraries required. 
 
 ---
 
@@ -39,11 +31,9 @@ Options
 
 `-d`, `--description` → Add a description at the end of the output.
 
-
-
 ---
 
-## Example
+### Example
 
 ```bash
 python3 dir2txt.py . myproject.txt -i /.venv/ -d "Hi GPT. What is the problem with my code?"
@@ -82,13 +72,27 @@ Hi GPT. What is the problem with my code?
 ./README.md
 [content file]
 
-```
+``` 
 
 ---
 
-## 🔧 Requirements  
-- Python **3.8+**  
-- No external libraries required.  
+## 💡 Features
+
+- Merge all project files into one text file.
+
+- Generate a tree view of the project structure (with directory & file counts).
+
+- Ignore unwanted files or directories (`.git`, `__pycache__`, `.venv`, etc.).
+
+- Add a custom project description at the end of the output.
+
+- Supports reading from compressed archives (`.zip`, `.tar`, `.gz`, `.bz2`, `.xz`).
+
+- Handles large files by skipping, truncating, or limiting the number of lines (configurable).
+
+- Output format is designed to be clean, Markdown-friendly, and AI-readable.
+
+- Pure Python, no external dependencies (standard library only).
 
 ---
 
