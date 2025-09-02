@@ -7,14 +7,13 @@ A lightweight Python tool that converts an entire project (or folder) into a sin
 
 ### Installation
 
-1. clone repo.
+1. clone the repo::
 
 ```bash
 git clone https://github.com/ArvandDev0/dir2txt
 ``` 
 
-
-## 🚀 Usage
+## Usage
 
 ```bash
 python3 dir2txt.py <input_directory> <output_file> [options]
@@ -24,16 +23,16 @@ python3 dir2txt.py <input_directory> <output_file> [options]
  Option | Description |
 |--------|-------------|
 | `-i`, `--ignore` | Comma-separated list of ignored files/folders |
-| `-d`, `--description` | Add a description at the end of the output |
+| `-d`, `--description` | Add a description at the output |
 
 
-### Example
+** Example::
 
 ```bash
-python3 dir2txt.py . myproject.txt -i /.venv/ -d "Hi GPT. What is the problem with my code?"
+python3 dir2txt.py . myproject.txt -i /.venv/,/.git/,.session -d "Hi GPT. What is the problem with my code?"
 ```
 
-Sample Output:
+** Sample Output:
 
 ```text
 Project structure
