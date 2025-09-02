@@ -2,8 +2,7 @@
 
 A lightweight Python tool that converts an entire project (or folder) into a single .txt file, optimized for Large Language Models (LLMs) such as ChatGPT, Claude, or Gemini.
 
-
-## 🌱 Getting Started
+## Getting Started
 
 Just clone the repo.
 
@@ -11,7 +10,7 @@ Just clone the repo.
 git clone https://github.com/ArvandDev0/dir2txt
 ``` 
 
-## 🚀 Usage
+## Usage
 
 ```bash
 python3 dir2txt.py <input_directory> <output_file> [options]
@@ -33,7 +32,7 @@ python3 dir2txt.py . myproject.txt -i /.venv/,/.git/,.session -d "Hi GPT. What i
 
 ### Sample Output
 
-```text
+```md
 Project structure
 . Files that were selected:
 |
@@ -67,7 +66,7 @@ Hi GPT. What is the problem with my code?
 ``` 
 
 
-## 💡 Features
+## Features
 
 - Merge all project files into one text file.
 
@@ -86,7 +85,7 @@ Hi GPT. What is the problem with my code?
 - Pure Python, no external dependencies (standard library only).
 
 
-## ✨ Why is this useful for LLMs?  
+## Why is this useful for LLMs?  
 - LLMs perform best when the **entire codebase is in one file**.  
 - The **tree view** helps AI understand the **project structure**.  
 - Large/binary files are automatically summarized → avoids token overload.  
