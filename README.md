@@ -1,19 +1,18 @@
-# dir2txt
+# dir2txt 📚
 
 A lightweight Python tool that converts an entire project (or folder) into a single .txt file, optimized for Large Language Models (LLMs) such as ChatGPT, Claude, or Gemini.
 
 ---
 
-## 📥 Installation
+## Getting Started
+
+### Installation
+
+- 1. clone repo.
 
 ```bash
 git clone https://github.com/ArvandDev0/dir2txt
-cd dir2txt/src
-```
-
-### 🔧 Requirements  
-- Python **3.8+**  
-- No external libraries required. 
+``` 
 
 ---
 
