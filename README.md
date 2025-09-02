@@ -5,9 +5,8 @@ A lightweight Python tool that converts an entire project (or folder) into a sin
 
 ## 🌱 Getting Started
 
-### Installation
+Just clone the repo.
 
-1. clone the repo 
 ```bash
 git clone https://github.com/ArvandDev0/dir2txt
 ``` 
